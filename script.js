@@ -2,8 +2,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGlseW1jbGF1Z2hsaW4iLCJhIjoiY21oOXI4N3ExMWc2d
 const map = new mapboxgl.Map({
         container: 'map', // this is the container ID that we set in the HTML
         style: 'mapbox://styles/lilymclaughlin/cmh9ru6wy000201so6gz0h5fc', // Your Style URL goes here
-        center: [-122.27, 37.8], // starting position [lng, lat]. Note that lat must be set between -90 and 90. You can choose what you'd like.
-        zoom: 9 // starting zoom, again you can choose the level you'd like.
+        center: [-122.2687, 37.8715], // starting position [lng, lat]. Note that lat must be set between -90 and 90. You can choose what you'd like.
+        zoom: 12 // starting zoom, again you can choose the level you'd like.
     });
 
 map.on('load', function() {
@@ -59,3 +59,4 @@ map.on('load', function() {
         });
 
     });
+
