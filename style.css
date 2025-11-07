@@ -15,6 +15,20 @@ h1 {
     font-size: 24px;
     color: #3d2e2e;
 }
+h2 {
+    position: absolute;
+    top:85px;
+    left: 20px;
+    z-index: 1000;
+    background:  #f4f8ed;
+    padding: 10px 15px;
+    margin: 25;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Lettra Mono';
+    font-size: 16px;
+    color: #3d2e2e;
+}
 /* Map box setup */
 #map {
   width: 100%;
